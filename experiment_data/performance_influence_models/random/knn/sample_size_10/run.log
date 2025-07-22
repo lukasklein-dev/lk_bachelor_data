@@ -1,0 +1,26 @@
+2025-07-22 13:36:30,530 - INFO - Starting the experimental pipeline.
+2025-07-22 13:36:30,530 - INFO - Parameters: measurements_csv=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_measurements/sklearn_experiment_knn/sampled_configurations_performance.csv, feature_model_xml=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/feature_models/k_neighbors_classifier.xml, sample_seed=42, sample_strategy=random, sample_size=10, max_interaction_order=3, margin=0.01, threshold=0.01, learning_seed=42, output_dir=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/random/knn/sample_size_10
+2025-07-22 13:36:30,530 - INFO - Loading feature model and extracting feature names.
+2025-07-22 13:36:30,531 - INFO - Number of features extracted: 30
+2025-07-22 13:36:30,531 - INFO - Generating sampled configurations using variant generator.
+2025-07-22 13:36:30,535 - INFO - Number of configurations sampled: 10
+2025-07-22 13:36:30,535 - INFO - Sampled configurations exported to /home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/random/knn/sample_size_10/sampled_configurations.csv
+2025-07-22 13:36:30,535 - INFO - Matching sampled configurations with their performance values.
+2025-07-22 13:36:30,550 - INFO - Number of matched configurations: 10
+2025-07-22 13:36:30,550 - INFO - Training the regression model using stepwise selection.
+2025-07-22 13:36:31,334 - INFO - Selected features: ['10', '4', '4*', '6', '64', 'distance']
+2025-07-22 13:36:31,334 - INFO - Final model:
+2025-07-22 13:36:31,334 - INFO - const       0.96880
+10         -0.00355
+4           0.00820
+4*          0.00470
+6          -0.00095
+64         -0.00610
+distance   -0.00085
+dtype: float64
+2025-07-22 13:36:31,335 - INFO - Trained model exported to /home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/random/knn/sample_size_10/trained_model.pkl
+2025-07-22 13:36:31,335 - INFO - Loading all configurations for performance prediction.
+2025-07-22 13:36:31,337 - INFO - Total number of configurations: 960
+2025-07-22 13:36:31,337 - INFO - Predicting performance for all configurations.
+2025-07-22 13:36:31,410 - INFO - Validation Error: 0.3351972691115222
+2025-07-22 13:36:31,410 - INFO - Experimental pipeline completed successfully.

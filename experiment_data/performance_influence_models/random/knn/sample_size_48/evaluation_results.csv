@@ -1,0 +1,2 @@
+Approach,Mean True Performance,Median True Performance,Mean Performance Prediction,Median Performance Prediction,Validation Error (MAPE) (%),95%-Bootstrap-CI Lower (for mean perf pred),95%-Bootstrap-CI Upper (for mean perf pred)
+knn/random/48,0.9683,0.9688,0.9679,0.9687,0.2044,0.9678,0.968

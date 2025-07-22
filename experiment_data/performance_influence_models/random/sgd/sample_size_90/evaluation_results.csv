@@ -1,0 +1,2 @@
+Approach,Mean True Performance,Median True Performance,Mean Performance Prediction,Median Performance Prediction,Validation Error (MAPE) (%),95%-Bootstrap-CI Lower (for mean perf pred),95%-Bootstrap-CI Upper (for mean perf pred)
+sgd/random/90,0.6234,0.7954,0.5637,0.5988,711.996,0.5323,0.5958

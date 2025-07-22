@@ -1,0 +1,2 @@
+Approach,Mean True Performance,Median True Performance,Mean Performance Prediction,Median Performance Prediction,Validation Error (MAPE) (%),95%-Bootstrap-CI Lower (for mean perf pred),95%-Bootstrap-CI Upper (for mean perf pred)
+dtc/diversified-distance/2,0.8778,0.8788,0.8813,0.8865,0.57,0.8779,0.8848

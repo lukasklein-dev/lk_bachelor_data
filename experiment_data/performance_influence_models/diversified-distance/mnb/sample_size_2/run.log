@@ -1,0 +1,42 @@
+2025-07-17 22:57:37,341 - INFO - Starting the experimental pipeline.
+2025-07-17 22:57:37,341 - INFO - Parameters: measurements_csv=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_measurements/sklearn_experiment_mnb/sampled_configurations_performance.csv, feature_model_xml=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/feature_models/multinomial_nb.xml, sample_seed=42, sample_strategy=diversified-distance, sample_size=2, max_interaction_order=3, margin=0.01, threshold=0.01, learning_seed=42, output_dir=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/diversified-distance/mnb/sample_size_2
+2025-07-17 22:57:37,342 - INFO - Loading feature model and extracting feature names.
+2025-07-17 22:57:37,343 - INFO - Number of features extracted: 9
+2025-07-17 22:57:37,343 - INFO - Generating sampled configurations using variant generator.
+2025-07-17 22:57:37,348 - INFO - Number of configurations sampled: 2
+2025-07-17 22:57:37,348 - INFO - Sampled configurations exported to /home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/diversified-distance/mnb/sample_size_2/sampled_configurations.csv
+2025-07-17 22:57:37,348 - INFO - Matching sampled configurations with their performance values.
+2025-07-17 22:57:37,357 - INFO - Number of matched configurations: 2
+2025-07-17 22:57:37,358 - INFO - Training the regression model using stepwise selection.
+2025-07-17 22:57:37,417 - INFO - Selected features: ['force_alpha']
+2025-07-17 22:57:37,417 - INFO - Final model:
+2025-07-17 22:57:37,418 - INFO - const          8.341000e-01
+force_alpha   -3.335776e-16
+dtype: float64
+2025-07-17 22:57:37,420 - INFO - Trained model exported to /home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/diversified-distance/mnb/sample_size_2/trained_model.pkl
+2025-07-17 22:57:37,420 - INFO - Loading all configurations for performance prediction.
+2025-07-17 22:57:37,422 - INFO - Total number of configurations: 20
+2025-07-17 22:57:37,422 - INFO - Predicting performance for all configurations.
+2025-07-17 22:57:37,481 - INFO - Validation Error: 0.1997476350509739
+2025-07-17 22:57:37,481 - INFO - Experimental pipeline completed successfully.
+2025-07-17 23:07:41,787 - INFO - Starting the experimental pipeline.
+2025-07-17 23:07:41,788 - INFO - Parameters: measurements_csv=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_measurements/sklearn_experiment_mnb/sampled_configurations_performance.csv, feature_model_xml=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/feature_models/multinomial_nb.xml, sample_seed=42, sample_strategy=diversified-distance, sample_size=2, max_interaction_order=3, margin=0.01, threshold=0.01, learning_seed=42, output_dir=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/diversified-distance/mnb/sample_size_2
+2025-07-17 23:07:41,788 - INFO - Loading feature model and extracting feature names.
+2025-07-17 23:07:41,789 - INFO - Number of features extracted: 9
+2025-07-17 23:07:41,789 - INFO - Generating sampled configurations using variant generator.
+2025-07-17 23:07:41,794 - INFO - Number of configurations sampled: 2
+2025-07-17 23:07:41,794 - INFO - Sampled configurations exported to /home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/diversified-distance/mnb/sample_size_2/sampled_configurations.csv
+2025-07-17 23:07:41,794 - INFO - Matching sampled configurations with their performance values.
+2025-07-17 23:07:41,803 - INFO - Number of matched configurations: 2
+2025-07-17 23:07:41,803 - INFO - Training the regression model using stepwise selection.
+2025-07-17 23:07:41,850 - INFO - Selected features: ['force_alpha']
+2025-07-17 23:07:41,850 - INFO - Final model:
+2025-07-17 23:07:41,850 - INFO - const          8.341000e-01
+force_alpha   -3.335776e-16
+dtype: float64
+2025-07-17 23:07:41,853 - INFO - Trained model exported to /home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/diversified-distance/mnb/sample_size_2/trained_model.pkl
+2025-07-17 23:07:41,853 - INFO - Loading all configurations for performance prediction.
+2025-07-17 23:07:41,855 - INFO - Total number of configurations: 20
+2025-07-17 23:07:41,855 - INFO - Predicting performance for all configurations.
+2025-07-17 23:07:41,914 - INFO - Validation Error: 0.1997476350509739
+2025-07-17 23:07:41,914 - INFO - Experimental pipeline completed successfully.

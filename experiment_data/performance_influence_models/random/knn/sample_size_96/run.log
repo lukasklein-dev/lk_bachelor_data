@@ -1,0 +1,22 @@
+2025-07-18 01:38:29,101 - INFO - Starting the experimental pipeline.
+2025-07-18 01:38:29,101 - INFO - Parameters: measurements_csv=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_measurements/sklearn_experiment_knn/sampled_configurations_performance.csv, feature_model_xml=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/feature_models/k_neighbors_classifier.xml, sample_seed=42, sample_strategy=random, sample_size=96, max_interaction_order=3, margin=0.01, threshold=0.01, learning_seed=42, output_dir=/home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/random/knn/sample_size_96
+2025-07-18 01:38:29,101 - INFO - Loading feature model and extracting feature names.
+2025-07-18 01:38:29,102 - INFO - Number of features extracted: 30
+2025-07-18 01:38:29,102 - INFO - Generating sampled configurations using variant generator.
+2025-07-18 01:38:29,108 - INFO - Number of configurations sampled: 96
+2025-07-18 01:38:29,109 - INFO - Sampled configurations exported to /home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/random/knn/sample_size_96/sampled_configurations.csv
+2025-07-18 01:38:29,109 - INFO - Matching sampled configurations with their performance values.
+2025-07-18 01:38:29,191 - INFO - Number of matched configurations: 96
+2025-07-18 01:38:29,191 - INFO - Training the regression model using stepwise selection.
+2025-07-18 01:38:29,415 - INFO - Selected features: ['2*', '30']
+2025-07-18 01:38:29,415 - INFO - Final model:
+2025-07-18 01:38:29,415 - INFO - const    0.969093
+2*      -0.001616
+30      -0.001676
+dtype: float64
+2025-07-18 01:38:29,416 - INFO - Trained model exported to /home/lukas/Schreibtisch/repos/lk_bachelor_sklearn/evaluation/experiment_data/performance_influence_models/random/knn/sample_size_96/trained_model.pkl
+2025-07-18 01:38:29,416 - INFO - Loading all configurations for performance prediction.
+2025-07-18 01:38:29,418 - INFO - Total number of configurations: 960
+2025-07-18 01:38:29,418 - INFO - Predicting performance for all configurations.
+2025-07-18 01:38:29,494 - INFO - Validation Error: 0.1592558193166741
+2025-07-18 01:38:29,494 - INFO - Experimental pipeline completed successfully.
